@@ -13,7 +13,6 @@ function Signin({value}) {
 
   const handleSubmit = (event) =>{
     event.preventDefault();
-
     const res = signin(email,senha);
     navigate("/home");
     setEmail("");

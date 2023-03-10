@@ -1,1 +1,1 @@
-insert into USER(nome,senha, cpf,email,cep,endereco,numero,complemento,bairro,cidade,estado,nascimento) values ("teste","pass","11122233344","yeah@gmail.com","11000222","rua das ruas",123,"Ap123","Testelopolis","Teste","Minas Gerais","2023-03-10")
+insert into USER(nome,senha, cpf,email,cep,endereco,numero,complemento,bairro,cidade,estado,nascimento) values ("teste","$2b$10$IkdpnIaa99IuNfKzQA4HRew8mjLHHImasW0au4LjhuYF8sNpHbmzS","11122233344","yeah@gmail.com","11000222","rua das ruas",123,"Ap123","Testelopolis","Teste","Minas Gerais","2023-03-10")

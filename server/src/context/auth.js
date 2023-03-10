@@ -11,7 +11,7 @@ export const AuthProvider = ({ children }) => {
             email: email,
             senha: senha
           }).then((response) => {
-                if(response.data.senha === senha){
+                if(response.data){
                     setUser(true);
                     return true;
                 }else{

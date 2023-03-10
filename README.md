@@ -7,14 +7,21 @@
 - Banco de Dados: mysql
 
 ## Como Rodar:
-Importe o banco de dados no arquivo, ou, rode os comandos 
+### Banco de dados
+1) Com o banco de dados em localhost rode os [arquivos de construção](https://github.com/gui-sa/NSolucoes/blob/main/query/DML.sql) e os [arquivos de inserção](https://github.com/gui-sa/NSolucoes/blob/main/query/DML.sql) <br>
+
+### Servidores
 Vá até diretorio backend e rode:
 ~~~
     npm install
+~~~
+~~~
     npm start
 ~~~
 Vá até diretorio server (frontend) e rode:
 ~~~
     npm install
-    npm start
+~~~
+~~~
+   npm start
 ~~~

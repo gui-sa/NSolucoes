@@ -12,16 +12,16 @@ const Private = ({ Item }) => {
 
 function App() {
   return (
-    <div className="App">
-      <AuthProvider>
-        <BrowserRouter>
-          <Routes>
-            <Route exact path="/home" element={<Private Item={Home} />} />
-            <Route path='/' element={<Signin />} />
-            <Route path='*' element={<Signin />} />
-          </Routes>
-        </BrowserRouter>
-      </AuthProvider>
+    <div className="container w-80 vh-100 mt-30">
+        <AuthProvider>
+          <BrowserRouter>
+            <Routes>
+              <Route exact path="/home" element={<Private Item={Home} />} />
+              <Route path='/' element={<Signin />} />
+              <Route path='*' element={<Signin />} />
+            </Routes>
+          </BrowserRouter>
+        </AuthProvider>
     </div>
   );
 }

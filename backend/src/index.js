@@ -31,7 +31,6 @@ app.post("/auth", async (req,res)=>{
     try{
         con.query(
         `select USER.senha from USER where (email='${req.body.email}');`, (field, result) => {
-            console.log(result[0]);
             if (result[0]=== undefined){
                 return res.status(200).send(false);
             }
